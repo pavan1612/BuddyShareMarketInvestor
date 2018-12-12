@@ -1,3 +1,2 @@
-# Testing
 # SEF-BuddingShareMarketInvestor
-# SEF-BuddingShareMarketInvestor
+Run Natively on Tomcat Server
