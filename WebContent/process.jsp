@@ -5,7 +5,9 @@
       
     <%  
     int status=RegisterDao.register(obj);  
-    if(status>0)  
-    out.print("You are successfully registered");  
-      
+    if(status>0)  {
+    String redirectURL="http://localhost:8080/LoginPage/Login.jsp";
+    response.sendRedirect(redirectURL);  
+    }
     %>  
+    

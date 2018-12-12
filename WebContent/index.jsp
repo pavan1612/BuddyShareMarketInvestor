@@ -9,7 +9,13 @@
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <style>
-body#LoginForm{ background-image:url("https://images.pexels.com/photos/147408/pexels-photo-147408.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"); background-repeat:no-repeat; background-position:center; background-size:cover; padding:10px;}
+body { background-image:url("https://i.redd.it/67ebeb1ch3ex.png");  /* Full height */
+    height: 50%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;}
 
 .form-heading { color:#fff; font-size:23px;}
 .panel h2{ color:#444444; font-size:18px; margin:0 0 8px 0;}
@@ -106,6 +112,7 @@ body#LoginForm{ background-image:url("https://images.pexels.com/photos/147408/pe
 <a href="Login.jsp" class="btn btn-primary btn-lg active" role="button" aria-pressed="false">Login</a>
 </div>
     </div>
+     <a href="http://localhost:8080/LoginPage/AdminLogin.jsp">Admin Login</a> 
 
 </div></div>
 

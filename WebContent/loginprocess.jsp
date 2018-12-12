@@ -1,4 +1,5 @@
-<%@page import="Register.LoginDao"%>  
+<%@page import="Register.LoginDao"%> 
+
 <jsp:useBean id="obj" class="Register.LoginBean"/>  
   
 <jsp:setProperty property="*" name="obj"/>  
@@ -6,7 +7,8 @@
 <%  
 boolean status=LoginDao.validate(obj);  
 if(status){  
-out.println("You r successfully logged in");  
+String redirectURL = "http://localhost:8080/LoginPage/Dashboard.jsp";
+response.sendRedirect(redirectURL); 
 session.setAttribute("session","TRUE");  
 }  
 else  
